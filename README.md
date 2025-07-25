@@ -17,7 +17,6 @@
 - They can be found in forests.
 - There are three variants.
 - You can tame ravens by feeding them meat.
-- You can breed ravens by feeding them seeds.
 - Rename a bundle with the name of an online player, right-click a raven with the bundle, and it will deliver the bundle to that player.
 # 
 
