@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "raven_delivery",
+	"version": "${version}",
+	"name": "Ravens & Deliveries",
+	"description": "A mod for Minecraft that adds ravens that can deliver Bundles. This Mod ports the ravens from another Mod \"Mason Decor\".",
+	"authors": [
+		"Arathain! (Original Mod Developer)",
+		"CalinXD_! (Porter)"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/raven_delivery/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.cxd.raven_delivery.RavensDeliveries"
+		],
+		"client": [
+			"dev.cxd.raven_delivery.RavensDeliveriesClient"
+		],
+		"fabric-datagen": [
+			"dev.cxd.raven_delivery.RavensDeliveriesDataGenerator"
+		]
+	},
+	"mixins": [
+		"raven_delivery.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
