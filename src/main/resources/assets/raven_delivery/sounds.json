@@ -1,0 +1,10 @@
+{
+  "entity.raven.caw": {
+    "sounds": [
+      "raven_delivery:entity/raven/raven_1",
+      "raven_delivery:entity/raven/raven_2",
+      "raven_delivery:entity/raven/raven_3"
+    ],
+    "subtitle": "subtitles.entity.raven.caw"
+  }
+}
